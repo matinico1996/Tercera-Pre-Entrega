@@ -1,0 +1,43 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background-color: #18b799;
+}
+
+header nav a 
+{
+    color: #fef6cd;
+    text-decoration: none;
+    font-family:'Fjalla One', sans-serif;
+    font-size: x-large;
+    
+}
+
+header>h2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-inline-start: auto;
+    
+}
+header > nav
+{
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+header > nav > a:hover
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
